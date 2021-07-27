@@ -1,0 +1,72 @@
+.carousel-inner {
+  width: 200px;
+  height: 400px;
+}
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover !important;
+  height: 100%;
+}
+.abustitle {
+  color: #bdc3df;
+}
+body {
+  background-image: url("images1/car1.jpg"); /* path of the image used */
+  /* background-color: #cccccc; Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+h2 {
+  color: #cccccc;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff00;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #bdc3df;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #c8c8c8;
+}
+.footer1 {
+  margin-top: 12px;
+  margin-left: 130px;
+  margin-right: auto;
+}
+.abustitle {
+  margin-top: -35px;
+  margin-left: 15px;
+}
+.footer {
+  /* position: fixed; */
+  /* margin-top: -2px; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+.footer p {
+  margin-left: 20px;
+}
